@@ -1,0 +1,75 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# Static files and cache
+.cache/
+public/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# TypeScript build files
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+
+# IDE settings and metadata
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependency and package files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Debug files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+*.swo
+
+# Miscellaneous system files
+.DS_Store
+Thumbs.db
+
+# Firebase and Cloudinary (if applicable)
+firebase-debug.log
+uploads/
+
+# Temporary exports (if you use `next export`)
+out/
+
+# Linting cache
+.eslintcache
+
+# Test coverage
+.nyc_output/
